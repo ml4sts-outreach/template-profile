@@ -2,7 +2,7 @@ import nox
 
 nox.options.reuse_existing_virtualenvs = True
 
-@nox.session
+@nox.session(name='docs')
 def docs(session):
     session.install('-r', 'requirements.txt')
     session.run(*'sphinx-build -nW --keep-going -b dirhtml . _build/dirhtml'.split())
