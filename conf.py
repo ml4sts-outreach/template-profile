@@ -79,7 +79,7 @@ html_sidebars = {
     "blog": ['tagcloud.html', 'archives.html'],
     "blog/**": ['postcard.html', 'recentposts.html', 'archives.html']
 }
-blog_baseurl = "https://ml4sts.com"
+blog_baseurl = ""
 blog_title = "Blog "
 blog_path = "news"
 blog_feed_length = 5
