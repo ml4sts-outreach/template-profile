@@ -72,14 +72,13 @@ html_sidebars = {
     "about": ["hello.html"],
     "publications": ["hello.html"],
     "projects": ["hello.html"],
-    "people": ["hello.html"],
-    "outreach": ["hello.html"],
+    "resume": ["hello.html"],
     "news": ["hello.html", 'archives.html'],
     "news/**": ['postcard.html', 'recentposts.html', 'archives.html'],
     "blog": ['tagcloud.html', 'archives.html'],
     "blog/**": ['postcard.html', 'recentposts.html', 'archives.html']
 }
-blog_baseurl = ""
+
 blog_title = "Blog "
 blog_path = "news"
 blog_feed_length = 5
