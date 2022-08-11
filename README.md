@@ -1,9 +1,13 @@
 # Sphinx Profile Page
 
-This is is a template for a resume/ personal portfolio, built with Sphinx! Based on [Chris Holdgraf's](https://github.com/choldgraf/choldgraf.github.io)
+This is is a template for a resume/ personal portfolio, built with Sphinx! Based on [Chris Holdgraf's personal site](https://github.com/choldgraf/choldgraf.github.io)
 
-This template is designed for use with the [ml4sts lab]
-<!-- link instructions -->
+This template is designed for use with the [ml4sts lab's outreach acticity on CS thinking & GitHub]()
+
+
+## Tips for Updating the Content of this site
+
+<!-- for the you to fill in during the activity -->
 
 
 ## To work with this repo offline
