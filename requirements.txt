@@ -8,3 +8,4 @@ sphinx-panels
 sphinxcontrib-bibtex
 sphinxext-opengraph
 pyyaml
+sphinx-revealjs

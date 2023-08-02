@@ -2,7 +2,7 @@
 
 This is is a template for a resume/ personal portfolio, built with Sphinx! Based on [Chris Holdgraf's personal site](https://github.com/choldgraf/choldgraf.github.io)
 
-This template is designed for use with the [ml4sts lab's outreach activity on CS thinking & GitHub]()
+This template is designed for use in the URI CS TD SSP.
 
 
 ## Tips for Updating the Content of this site
@@ -11,6 +11,9 @@ This template is designed for use with the [ml4sts lab's outreach activity on CS
 
 
 ## To work with this repo offline
+
+**This requires having python installed then installs a package that helps build the website**
+
 The easiest way to build the website is to use `nox`, which handles all of the environment generation automatically.
 To do so, follow these steps:
 

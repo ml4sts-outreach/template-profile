@@ -21,6 +21,7 @@ extensions = [
     'sphinx.ext.intersphinx',
     "sphinx_panels",
     "sphinxext.opengraph",
+    "sphinx_revealjs",
 ]
 
 # "sphinxext.rediraffe",
@@ -64,6 +65,10 @@ html_title = project
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# html_js_files = [
+#     'slides.js',
+# ]
 # html_extra_path = ["feed.xml"]
 # map pages to which sidebar they should have
 #  "page_file_name": ["list.html", "of.html", "sidebar.html", "files.html"]
@@ -78,6 +83,7 @@ html_sidebars = {
     "blog": ['tagcloud.html', 'archives.html'],
     "blog/**": ['postcard.html', 'recentposts.html', 'archives.html']
 }
+
 
 blog_title = "Blog "
 blog_path = "news"
@@ -110,3 +116,4 @@ myst_enable_extensions = [
 
 def setup(app):
     app.add_css_file("custom.css")
+    # app.add_js_file("custom.js")
