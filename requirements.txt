@@ -4,8 +4,8 @@ myst_nb
 MyST-Parser
 pydata-sphinx-theme
 sphinx
-sphinx-panels
+sphinx-design
 sphinxcontrib-bibtex
 sphinxext-opengraph
 pyyaml
-sphinx-revealjs
+sphinx-autobuild

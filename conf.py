@@ -19,7 +19,7 @@ extensions = [
     "myst_nb",
     "ablog",
     'sphinx.ext.intersphinx',
-    "sphinx_panels",
+    "sphinx_design",
     "sphinxext.opengraph",
     "sphinx_revealjs",
 ]
@@ -54,7 +54,6 @@ html_theme_options = {
   "twitter_url": "https://twitter.com/username",
   "search_bar_text": "Search this site...",
   "navbar_end": ["search-field.html"],
-  "left_sidebar_end":[ "icon-links.html"]
 }
 
 # html_favicon = "_static/favicon.ico"
