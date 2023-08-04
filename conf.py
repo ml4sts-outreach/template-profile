@@ -1,7 +1,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Site Title'
-copyright = '2022, Your name'
+copyright = '2023, Your name'
 author = 'Your Name'
 
 
@@ -21,7 +21,6 @@ extensions = [
     'sphinx.ext.intersphinx',
     "sphinx_design",
     "sphinxext.opengraph",
-    "sphinx_revealjs",
 ]
 
 # "sphinxext.rediraffe",
@@ -75,8 +74,8 @@ html_sidebars = {
     "index": ["hello.html"],
     "about": ["hello.html"],
     "resume": ["hello.html"],
-    "news": ["hello.html", 'archives.html'],
-    "news/**": ['postcard.html', 'recentposts.html', 'archives.html'],
+    "news": ["hello.html", 'ablog/archives.html'],
+    "news/**": ['ablog/postcard.html', 'ablog/recentposts.html', 'ablog/archives.html'],
     "blog": ['tagcloud.html', 'archives.html'],
     "blog/**": ['postcard.html', 'recentposts.html', 'archives.html'],
     "pechakucha":[]
