@@ -53,7 +53,7 @@ html_theme_options = {
   "github_url": "https://github.com/username/",
   "twitter_url": "https://twitter.com/username",
   "search_bar_text": "Search this site...",
-  "navbar_end": ["search-field.html"],
+#   "navbar_end": ["search-field.html"],
 }
 
 # html_favicon = "_static/favicon.ico"
@@ -69,18 +69,17 @@ html_static_path = ['_static']
 #     'slides.js',
 # ]
 # html_extra_path = ["feed.xml"]
-# map pages to which sidebar they should have
+# map pages to which sidebar they should have 
 #  "page_file_name": ["list.html", "of.html", "sidebar.html", "files.html"]
 html_sidebars = {
     "index": ["hello.html"],
     "about": ["hello.html"],
-    "publications": ["hello.html"],
-    "projects": ["hello.html"],
     "resume": ["hello.html"],
     "news": ["hello.html", 'archives.html'],
     "news/**": ['postcard.html', 'recentposts.html', 'archives.html'],
     "blog": ['tagcloud.html', 'archives.html'],
-    "blog/**": ['postcard.html', 'recentposts.html', 'archives.html']
+    "blog/**": ['postcard.html', 'recentposts.html', 'archives.html'],
+    "pechakucha":[]
 }
 
 
@@ -105,7 +104,7 @@ myst_enable_extensions = [
     "fieldlist",
     "html_admonition",
     "html_image",
-    # "linkify",
+    # "attrs_block",
     "replacements",
     "smartquotes",
     "strikethrough",
