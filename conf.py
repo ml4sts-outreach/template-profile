@@ -1,13 +1,17 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Site Title'
-copyright = '2023, Your name'
+copyright = '2024, Your name'
 author = 'Your Name'
 
+# ----------------------------------------------------------------------------
+#            Below here does not *need* to be edited for the workshop
+# ----------------------------------------------------------------------------
 
+html_theme = 'pydata_sphinx_theme'
 
 # ----------------------------------------------------------------------------
-#            Below here does not need to be edited for the lab
+#            Below here **should not** be edited for the workshop
 # ----------------------------------------------------------------------------
 
 # -- General configuration ---------------------------------------------------
@@ -41,8 +45,9 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "*import_posts*",
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'pydata_sphinx_theme'
 
+# this adds functionality to read from the info.yml file and make that content 
+#  available to the builder with {{ key }} (see _templates/hello.html)
 import yaml
 with open ('info.yml','r') as f:
     html_context = yaml.safe_load(f)
@@ -50,7 +55,6 @@ with open ('info.yml','r') as f:
 
 html_theme_options = {
   "github_url": "https://github.com/username/",
-  "twitter_url": "https://twitter.com/username",
   "search_bar_text": "Search this site...",
 #   "navbar_end": ["search-field.html"],
 }

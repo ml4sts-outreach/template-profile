@@ -9,16 +9,16 @@ on:
 
 # This job installs dependencies, build the book, and pushes it to `gh-pages`
 jobs:
-  deploy-book:
+  build-book:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4.1.1
 
-    # Install dependencies
-    - name: Set up Python 3.9
-      uses: actions/setup-python@v4
+    # Install dependencies for site build
+    - name: Set up Python 
+      uses: actions/setup-python@v5
       with:
-        python-version: 3.9
+        python-version: 3.11
 
     - name: Install dependencies
       run: |
