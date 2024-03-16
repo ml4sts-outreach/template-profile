@@ -1,0 +1,30 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Add a page",
+  "steps": [
+    {
+      "title": "activate the toctree",
+      "file": "index.md",
+      "description": "This is the `toctree` or the main menu of the site, to get it started use the page add button in the file panel to the left to add a new file, name it in all lowercase and give it the extension `.md`.  \n\nSome ideas might be:\n- `about.md`\n- `projects.md`\n\nNext, uncomment the `toctree` by deleting the `<!--` here and the `-->` on the last line of the file",
+      "line": 11
+    },
+    {
+      "title": "Add your page to it",
+      "file": "index.md",
+      "description": "Now, replace `page_file_name`  with the name of the file you made. ",
+      "line": 16
+    },
+    {
+      "title": "Example About",
+      "file": "_resources/about.md",
+      "description": "If you are adding an about page, you might copy-paste this content into your own file. ",
+      "line": 1
+    },
+    {
+      "title": "Example Project Page",
+      "file": "_resources/project.md",
+      "description": "or if you are making a project grid here is how you might add it. ",
+      "line": 1
+    }
+  ]
+}

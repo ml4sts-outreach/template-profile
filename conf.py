@@ -10,9 +10,7 @@ author = 'Your Name'
 
 html_theme = 'pydata_sphinx_theme'
 
-# ----------------------------------------------------------------------------
-#            Below here **should not** be edited for the workshop
-# ----------------------------------------------------------------------------
+
 
 # -- General configuration ---------------------------------------------------
 
@@ -37,7 +35,7 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "*import_posts*",
         "**/pandoc_ipynb/inputs/*", ".nox/*", "README.md",
-        '_data','_pages','_people','_projects']
+        '_resources']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -54,7 +52,7 @@ with open ('info.yml','r') as f:
 
 
 html_theme_options = {
-  "github_url": "https://github.com/username/",
+#   "github_url": "https://github.com/username/",
   "search_bar_text": "Search this site...",
 #   "navbar_end": ["search-field.html"],
 }
@@ -77,12 +75,12 @@ html_static_path = ['_static']
 html_sidebars = {
     "index": ["hello.html"],
     "about": ["hello.html"],
+    "projects": ["hello.html"],
     "resume": ["hello.html"],
     "news": ["hello.html", 'ablog/archives.html'],
     "news/**": ['ablog/postcard.html', 'ablog/recentposts.html', 'ablog/archives.html'],
     "blog": ['tagcloud.html', 'archives.html'],
     "blog/**": ['postcard.html', 'recentposts.html', 'archives.html'],
-    "pechakucha":[]
 }
 
 
