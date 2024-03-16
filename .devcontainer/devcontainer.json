@@ -9,8 +9,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"vsls-contrib.codetour",
-				"george-alisson.html-preview-vscode"
+				"vsls-contrib.codetour"
 			]
 		}
 	},
@@ -22,7 +21,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install -r requirements.txt"
+	"postCreateCommand": "pip install -r requirements.txt; pip install -U nox; nox -s docs-live"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
