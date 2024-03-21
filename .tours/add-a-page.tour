@@ -5,13 +5,29 @@
     {
       "title": "activate the toctree",
       "file": "index.md",
-      "description": "This is the `toctree` or the main menu of the site, to get it started use the page add button in the file panel to the left to add a new file, name it in all lowercase and give it the extension `.md`.  \n\nSome ideas might be:\n- `about.md`\n- `projects.md`\n\nNext, uncomment the `toctree` by deleting the `<!--` here and the `-->` on the last line of the file",
-      "line": 11
+      "description": "This is the `toctree` or the main menu of the site, to use it, uncomment the `toctree` by deleting the `<!--` here and the `-->` on the last line of the file",
+      "line": 40,
+      "selection": {
+        "start": {
+          "line": 16,
+          "character": 1
+        },
+        "end": {
+          "line": 16,
+          "character": 15
+        }
+      }
     },
     {
       "title": "Add your page to it",
       "file": "index.md",
-      "description": "Now, replace `page_file_name`  with the name of the file you made. ",
+      "description": "Now, replace `page_file_name`  with the name of the file you want to make. \n\nSome ideas might be:\n- `about.md`\n- `projects.md`\n\n",
+      "line": 16
+    },
+    {
+      "title": "Create the file",
+      "file": "index.md",
+      "description": "Use the page add button in the file panel to the left to add a new file, name it in all lowercase and give it the extension `.md`.  \n",
       "line": 16
     },
     {

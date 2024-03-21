@@ -11,7 +11,7 @@
     {
       "title": "Theme",
       "file": "conf.py",
-      "description": "Sphinx, the site builder uses themes to control the overall look and feel. \n\nYou can learn more about this theme from the [pydata theme docs](https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html). \n\nAlternativlely, you can try a [different theme](https://sphinx-themes.org/). You will need to install that them, and you should add it to the `requirements.txt file as well. ",
+      "description": "Sphinx, the site builder uses themes to control the overall look and feel. \n\nYou can learn more about this theme from the [pydata theme docs](https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html). \n\nAlternativlely, you can try a [different theme](https://sphinx-themes.org/). You will need to install that them, and you should add it to the `requirements.txt` file as well. ",
       "line": 11
     },
     {

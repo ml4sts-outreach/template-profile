@@ -53,6 +53,7 @@ with open ('info.yml','r') as f:
 
 html_theme_options = {
 #   "github_url": "https://github.com/username/",
+     "header_links_before_dropdown": 8,
   "search_bar_text": "Search this site...",
 #   "navbar_end": ["search-field.html"],
 }
