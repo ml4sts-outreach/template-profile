@@ -83,11 +83,18 @@ html_sidebars = {
     "blog": ['tagcloud.html', 'archives.html'],
     "blog/**": ['postcard.html', 'recentposts.html', 'archives.html'],
 }
+#  ------------------------------------------------------------------------
+#               Ablog settings
+# ------------------------------------------------------------------------
+# If you want a blog, rather than news, you can edit this section.
+#  It uses the sphinx extension ablog, so for more detail, look up its docs
 
-
-blog_title = "Blog "
+#  title will be used in internals
+blog_title = "News "
+# this needs to exactly match the folder name where you will put your posts
 blog_path = "news"
 blog_feed_length = 5
+# fontawesome is icons
 fontawesome_included = True
 blog_post_pattern = "news/*"
 post_redirect_refresh = 1
