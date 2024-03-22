@@ -2,7 +2,7 @@
 
 This is is a template for a resume/ personal portfolio, built with Sphinx! Based on [Chris Holdgraf's personal site](https://github.com/choldgraf/choldgraf.github.io)
 
-This template is designed for use in NSBE 50 Workshop: Creating a profile webiste with GitHub Pages. 
+This template is designed for use in NSBE 50 Workshop: Creating a profile website with GitHub Pages. 
 
 
 ## Tips for Updating the Content of this site
@@ -12,9 +12,15 @@ This template is designed for use in NSBE 50 Workshop: Creating a profile webist
 - variables are used via `html_context`
 - get social links back by removing setting to `navbar_end` in `conf.py` and set values by [example](https://github.com/choldgraf/choldgraf.github.io/blob/main/conf.py#L41)
 
+## References and help
+
+- Open in a CodeSpace, [the first time, or after not using it for a while](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) or [returning to one](https://docs.github.com/en/codespaces/developing-in-a-codespace/opening-an-existing-codespace#resuming-a-codespace-from-a-repository-page). *these links go to the GitHub docs so they stay the correct instructions even if GitHub changes*
+- You can also [use the full devcontainer](https://code.visualstudio.com/docs/devcontainers/containers) locally. 
+- If in a codespace or locally after installing the CodeTour extension
+- See the [workshop materials website](https://ml4sts-outreach.github.io/profile/).  This may get updates and more information added to it, but the references will remain accurate. 
+- If you get really stuck, you can @ mention  Dr. Brown(brownsarahm) in an issue on your repo.  She  may be slow at times, but will generally reply. **this is better than email for her**
+
 ## Working in the configured codespace
-
-
 
 The code space is pre-configured to install python, all of the website's build dependencies, and start running the live builder. 
 It also installs the code tour VSCode extension, so that you can use these as an additional type of documentation. 
